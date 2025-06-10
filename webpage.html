@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Homepage</title>
+    <style>
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: #333;
+        }
+        
+    
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1.5rem;
+        }
+        
+        .featured-article {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        
+        .new-articles {
+            grid-column: 3;
+            background-color: #00001a;
+            color: white;
+            padding: 1.5rem;
+        }
+        
+    
+        .article-card {
+            margin-bottom: 1.5rem;
+        }
+        
+    
+        .bottom-articles {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .featured-article, .new-articles, .bottom-articles {
+                grid-column: 1;
+            }
+            
+            .bottom-articles {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">W.</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+        </ul>
+    </nav>
+    
+    <main class="grid-container">
+        <div class="">
+            <img src="hdml/web.img1.jpg" alt="Featured Article Image" style="width:100%;">
+            <h1>The Bright Future of Web 3.0?</h1>
+            <div>
+                <p>What happened when old PCs are given modern upgrades?</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        
+        <div class="">
+            <h2>New</h2>
+            <div class="article-card">
+                <h3>Hydrogen VS Electric Cars</h3>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+            <div class="article-card">
+                <h3>The Downsides of AI Artistry</h3>
+                <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+            <div class="">
+                <h3>Is VC Funding Drying Up?</h3>
+                <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
+        </div>
+        
+        <section class="bottom-articles">
+            <article class="article-card">
+                <img src="image2.jpg" alt="Top 10 PCs" style="width:100%;">
+                <div>
+                    <h2>01</h2>
+                    <h3>Reviving Retro PCs</h3>
+                    <p>What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </article>
+            <div class="article-card">
+                <img src="image3.jpg" alt="Top Laptops" style="width:100%;">
+                <div>
+                    <h2>02</h2>
+                    <h3>Top 10 Laptops of 2022</h3>
+                    <p>Our best picks for various needs and budgets.</p>
+                </div>
+            </div>
+            <div class="">
+                <img src="image4.jpg" alt="Gaming Growth" style="width:100%;">
+                <div>
+                    <h2>03</h2>
+                    <h3>The Growth of Gaming</h3>
+                    <p>How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </>
+        </section>
+    </main>
+</body>
+</html>

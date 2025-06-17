@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Choose Head or Tales</p>
+    <button onclick="choose()">
+        Head
+    </button>
+    <button onclick="choose()">Tails</button>
+    <div style="height: 100px; width: 100px; background-color: red; margin: 20px; border-radius: 50px; color: rgb(0, 0, 0); display: flex; justify-content: center; align-items: center; transition: 0.5s; "
+        id="toss">
+        <p id="coin">No choose</p>
+    </div>
+   
+
+</body>
+<script>
+    function choose() {
+        let rendom = Math.floor(Math.random() * 2);
+        console.log(rendom);
+        let computer = '';
+        let coine = document.getElementById("coin");
+        let get = document.getElementById("toss");
+        if (rendom == 0) {
+            computer = "Head";
+        }
+        else if (rendom == 1) {
+            computer = "Tails";
+        }
+
+        if (computer == "Head") {
+            get.style.backgroundColor = "black";
+            coine.textContent = "Head";
+
+        } else if (computer == "Tails") {
+            get.style.backgroundColor = "red"
+            coine.textContent = "Tails";
+
+        }
+    }
+    
+</script>
+
+</html>

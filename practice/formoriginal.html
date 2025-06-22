@@ -43,7 +43,47 @@
                 <input placeholder="start typing...">
             </h4>
             <h4>Department:<br>
-                <input placeholder=""
+                <input placeholder="-select-">
+            </h4>
+<style>
+  body { font-family: Arial, sans-serif; background-color: #e6ffe6; padding: 20px; }
+  .container { ; padding: 30px; max-width: 600px; margin: auto; }
+  label { display: block; margin-bottom: 5px; font-weight: bold; }
+  input[type="range"] { width: 100%; margin-bottom: 20px; }
+  input[type="color"] { width: 60px; height: 30px; border: none; margin-bottom: 20px; }
+  input[type="text"], textarea { width: calc(100% - 12px); padding: 8px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 4px; }
+  input[type="text"][readonly], input[type="text"][disabled] { background-color: #f0f0f0; cursor: not-allowed; }
+  textarea { resize: vertical; min-height: 80px; }
+  .submit-button { background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; display: block; margin: 20px auto 0; }
+  .submit-button:hover { background-color: #45a049; }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <form>
+    <label for="codingSkills">Rate Your Coding Skills:</label>
+    <input type="range" id="codingSkills" name="codingSkills" min="0" max="100" value="50">
+
+    <label for="themeColor">Choose Your Theme Color:</label>
+    <input type="color" id="themeColor" name="themeColor" value="#33CC66">
+
+    <label for="collegeCode">College Code (Read Only):</label>
+    <input type="text" id="collegeCode" name="collegeCode" value="ABC2025" readonly>
+
+    <label for="createdBy">Created By (Disabled):</label>
+    <input type="text" id="createdBy" name="createdBy" value="Faceprep Students" disabled>
+
+    <label for="aboutYou">About You:</label>
+    <textarea id="aboutYou" name="aboutYou" placeholder="Tell us about yourself..."></textarea>
+
+    <button type="submit" class="submit-button">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
+
             </h4>
     </form>
     

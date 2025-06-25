@@ -1,17 +1,35 @@
-*{
-    padding: 1;
-    margin: 0%;
 
-}
-
-a{
-   color: red;
-}
 
 .jan{
     color: blue;
 }
 
-#aug{
-    color: aquamarine;
+#sep{
+    color: rgb(253, 4, 253);
 }
+
+.mar{
+    color: darkgrey;
+}
+
+#feb{
+    color: yellow;
+}
+
+.col{
+    color: red;
+}
+
+.red{
+    background-color: red;
+}
+.bl{
+    background-color: blue;
+}
+.blue{
+    color: blue;
+}
+#name{
+    color: yellow;
+}
+

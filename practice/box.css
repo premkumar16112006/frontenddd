@@ -1,0 +1,28 @@
+.parent{
+    display: flex;
+}
+
+
+
+.box1{
+    height: 200px;
+    width: 220px;
+    background-color: pink;
+    margin: 5%;
+    
+}
+.box2{
+
+    background-color: aqua;
+    height: 250px;
+    width: 250px;
+    margin: 5%;
+
+}
+
+.box3{
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    margin: 5%;
+}

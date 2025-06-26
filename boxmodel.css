@@ -1,0 +1,26 @@
+.b0{
+    
+
+}
+
+
+#b1{
+    border: 5px solid;
+    background-color: aliceblue;
+    height: 400px;
+    width: 400px;
+    style:display: grid;
+    place-content:center;
+    align-items: center;
+    justify-content: center;
+}
+
+#b2{
+    border: 5px solid;
+    background-color: rgb(104, 104, 172);
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+
+}

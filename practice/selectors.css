@@ -1,0 +1,51 @@
+
+
+
+
+#h1{
+
+   border-style: 5px solid;
+   background-color: yellow;
+   height: 40px;
+   width: 800px;
+   align-items: center;
+   justify-content: center;
+}
+
+#p{
+    color: rgb(5, 156, 206);
+}
+
+#para{
+  border: 2px black dotted;
+  width: 800px;
+  height: 40px;
+
+}
+
+#p3{
+    border: 5px solid;
+    background-color: aquamarine;
+    width: 800px;
+    height: 40px;
+    align-content: center;
+    border-color: rgb(125, 228, 21);
+}
+
+#p4{
+    border:5px solid;
+    background-color: bisque;
+    width: 800px;
+    height: 40px;
+    align-content: center;
+    border-color: rgb(242, 16, 16);
+}
+
+#p5{
+    border: 5px solid;
+    background-color: aquamarine;
+    width: 800px;
+    height: 40px;
+    align-content: center;
+    border-color: mediumspringgreen;
+}

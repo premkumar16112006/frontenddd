@@ -1,0 +1,116 @@
+.butt{
+ background-color: rgb(230, 224, 224);
+}
+
+#pink{
+    border: 3px solid;
+    background-color: pink;
+    width: 200px;
+    height: 30px;
+    margin: 20px;
+    align-content: center;
+
+}
+
+#green{
+    border: 3px solid;
+    background-color: rgb(0, 255, 0);
+    width: 200px;
+    height: 30px;
+    align-content: center;
+    margin: 20px;
+}
+
+#blue{
+    border: 3px solid;
+    background-color: rgb(91, 91, 254);
+    width: 200px;
+    height: 30px;
+   align-content: center;
+}
+
+.box{
+   
+ display: flex ;
+ background-color: silver;
+}
+
+#e{
+    border: 5px solid;
+    background-color: rgb(11, 128, 231);
+    color: white;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+
+}
+
+#a{
+    border: 3px solid;
+    background-color: purple;
+    width: 200px;
+    height: 90px;
+    color: white;
+    border-color: black;
+    margin: 20px;
+}
+
+
+#b{
+    border: 3px solid;
+    background-color: green;
+    width: 200px;
+    height: 130px;
+    color: white;
+    border-color: black;
+    margin: 20px;
+}
+
+
+#c{
+    border: 3px solid;
+    background-color: yellow;
+    width: 120px;
+    height: 150px;
+    color: rgb(229, 213, 213);
+    border-color: black;
+    margin: 20px;
+    
+
+}
+
+#d{
+    border: 3px solid;
+    background-color: orangered;
+    width: 150px;
+    height: 190px;
+    color: white;
+    border-color: black;
+    margin: 20px;
+
+}
+
+.mini{
+   
+     display: flex;
+}
+
+#a1{
+    border: 3px solid;
+    color: black;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(145, 145, 231);
+    margin: 20px;
+}
+
+#a2{
+     border: 3px dotted;
+    color: black;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(145, 145, 231);
+}
+

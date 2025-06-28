@@ -1,0 +1,24 @@
+.a1{
+    border: 5px solid;
+    background-color: aliceblue;
+    width: 600px;
+    height: 600px;
+
+}
+
+.a2{
+    border: 3px solid;
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+   align-items: center;
+   justify-content: center;
+   margin: 150px;
+
+}
+
+#na{
+
+    margin: 1vh;
+}
+
